@@ -14,7 +14,7 @@
  * zero means the end-of-file was reached.  Otherwise, the number of bytes
  * read in for the vertex tuple are returned.
  */
-ssize_t
+size_t
 edge_read(edge_t e, schema_t schema, int fd)
 {
 	off_t off;

@@ -11,7 +11,7 @@
  * 64-bit vertex id followed by the vertex tuple.  Assume the id and tuple
  * are set to be written.
  */
-ssize_t
+size_t
 vertex_write(vertex_t v, int fd)
 {
 	off_t off;

@@ -11,7 +11,7 @@
  * 64-bit vertex ids followed by the edge tuple.  Assume the ids and tuple
  * are set to be written.
  */
-ssize_t
+size_t
 edge_write(edge_t e, int fd)
 {
 	off_t off;
